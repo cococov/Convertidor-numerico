@@ -346,7 +346,7 @@ public class Ventana extends javax.swing.JFrame {
             archivo = seleccionado.getSelectedFile();
             if (archivo.getName().endsWith("txt")) {
                 for (int i = 0; i < LOG.size(); i++) {
-                    contenido += LOG.get(i);
+                    contenido += LOG.get(i) + "\n";
                 }
                 String respuesta = GuardarATexto(archivo, contenido);
                 if (respuesta != null) {

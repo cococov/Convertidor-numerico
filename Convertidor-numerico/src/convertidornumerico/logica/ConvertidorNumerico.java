@@ -13,7 +13,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  */
 public class ConvertidorNumerico {
 
-    public static String VERSION = "1.02";
+    public static String VERSION = "1.1";
     public static ArrayList<String> LOG = new ArrayList();
 
     /**
